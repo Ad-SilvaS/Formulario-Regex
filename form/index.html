@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Form - Regex</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1>Cadastre-se</h1>
+
+            <p>Preencha as informações e conclua o cadastro</p>
+        </div>
+
+        <div class="form-container">
+            <form action="#" class="form" id="form">
+                <div class="inputs-container">
+                    <div class="input">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="phone">Celular</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+
+                    <div class="input">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" required>
+                        <i class="fa-solid fa-eye icon"></i>
+                    </div>
+
+                    <div class="input">
+                        <label for="conf-password">Confirme a senha</label>
+                        <input type="password" name="conf-password" id="conf-password" required>
+                        <i class="fa-solid fa-eye icon"></i>
+                    </div>
+                </div>
+
+                <div class="register-btn">
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
